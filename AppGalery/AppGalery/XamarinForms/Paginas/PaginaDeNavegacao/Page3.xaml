@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Página 2"
+             x:Class="AppGalery.XamarinForms.Paginas.PaginaDeNavegacao.Page3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Inserir pagina na pilha" Clicked="InsertPage"/>
+            <Button Text="Remover pagina na pilha" Clicked="RemovePage"/>
+            <Button Text="Abrir modal" Clicked="OpenModal"/>
+            <Button Text="Abrir carrossel" Clicked="OpenCarrossel"/>
+            <Button Text="Abrir carrossel manual" Clicked="OpenCarrosselManual"/>
+            <Button Text="Abrir diaba" Clicked="OpenDiaba"/>
+            <Label Text="Pagina 3"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="PopAsync - Previus" Clicked="PopAsync"/>
+            <Button Text="PopToRootAsync - Start" Clicked="PopToRootAsync"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
