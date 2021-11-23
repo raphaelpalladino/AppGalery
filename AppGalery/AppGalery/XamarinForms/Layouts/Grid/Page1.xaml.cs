@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AppGalery.XamarinForms.Layouts.Grid
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Grid : ContentPage
+    public partial class Page1 : ContentPage
     {
-        public Grid()
+        public Page1()
         {
             InitializeComponent();
         }
