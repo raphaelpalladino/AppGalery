@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGalery.XamarinForms.Layouts.Flexivel.Page1">
+    <ContentPage.Content>
+        <FlexLayout BackgroundColor="Gray" Direction="Column" AlignItems="Stretch" >
+            <Label Text="Linha 01" FlexLayout.Order="2" FlexLayout.Basis="100" BackgroundColor="Green" Padding="10"/>
+            <Label Text="Linha 02" FlexLayout.Order="3" BackgroundColor="White" Padding="10"/>
+            <Label Text="Linha 03" FlexLayout.Order="1" BackgroundColor="Aqua" Padding="10"/>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

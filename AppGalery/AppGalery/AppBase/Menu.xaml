@@ -5,18 +5,29 @@
              x:Class="AppGalery.AppBase.Menu">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <StackLayout>
-                <Label Text="Páginas" />
-                <Button Text="StackLayout" Clicked="AbrirStackLayout"/>
-                <Button Text="GridLayout" Clicked="AbrirGridLayout"/>
-                <Button Text="ContentPage" Clicked="AbrirContentPage"/>
-                <Button Text="NavigationPage"  Clicked="AbrirNavigationPage"/>
-                <Button Text="CarouselPage" Clicked="AbrirCarouselPage"/>
-                <Button Text="TabbedPage" Clicked="AbrirTabbedPage" />
-                <Button Text="MasterDetaisPage" Clicked="AbrirMasterDetaisPage"/>
-                <Button Text="Modal" Clicked="AbrirModal"/>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="Páginas" />
+                    <Button Text="ContentView" Clicked="AbrirContentView"/>
+                    <Button Text="ScrollView" Clicked="AbrirScrollView"/>
+                    <Button Text="ScrollViewXY" Clicked="AbrirScrollViewXY"/>
+                    <Button Text="ScrollView Horizontal" Clicked="AbrirScrollViewHorizontal"/>
+                    <Button Text="FlexLayout" Clicked="AbrirFlexLayout"/>
+                    <Button Text="FlexLayout2" Clicked="AbrirFlexLayout2"/>
+                    <Button Text="RelativeLayout" Clicked="AbrirRelativeLayout"/>
+                    <Button Text="AbsoluteLayout" Clicked="AbrirAbsoluteLayout"/>
+                    <Button Text="AbsoluteLayout2" Clicked="AbrirAbsoluteLayout2"/>
+                    <Button Text="StackLayout" Clicked="AbrirStackLayout"/>
+                    <Button Text="GridLayout" Clicked="AbrirGridLayout"/>
+                    <Button Text="ContentPage" Clicked="AbrirContentPage"/>
+                    <Button Text="NavigationPage"  Clicked="AbrirNavigationPage"/>
+                    <Button Text="CarouselPage" Clicked="AbrirCarouselPage"/>
+                    <Button Text="TabbedPage" Clicked="AbrirTabbedPage" />
+                    <Button Text="MasterDetaisPage" Clicked="AbrirMasterDetaisPage"/>
+                    <Button Text="Modal" Clicked="AbrirModal"/>
 
-            </StackLayout>
+                </StackLayout>
+            </ScrollView>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>

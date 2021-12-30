@@ -20,6 +20,8 @@
                 <RowDefinition />
                 <RowDefinition />
             </Grid.RowDefinitions>
+            
+            
 
             <Label Text="0" TextColor="#fff" VerticalOptions="Center" HorizontalOptions="End" Grid.ColumnSpan="4" Padding="10"></Label>
 

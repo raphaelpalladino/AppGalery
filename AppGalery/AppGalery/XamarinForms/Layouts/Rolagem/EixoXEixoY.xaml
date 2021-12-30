@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGalery.XamarinForms.Layouts.Rolagem.EixoXEixoY"
+             BackgroundColor="CadetBlue">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <ScrollView Orientation="Both" Scrolled="ScrollView_Scrolled">
+                <StackLayout Padding="10">
+                    <BoxView Color="Blue" WidthRequest="900" HeightRequest="200" />
+                    <Label x:Name="posicao" Text="Teste aqui"  BackgroundColor="Black" TextColor="White"/>
+                </StackLayout>
+            </ScrollView>
+            <ScrollView Grid.Row="1" Orientation="Horizontal">
+                <StackLayout Orientation="Vertical">
+                    <BoxView x:Name="inicio" BackgroundColor="Black"  Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView BackgroundColor="Black" Color="White" Margin="1" />
+                    <BoxView x:Name="final" BackgroundColor="Black" Color="White" Margin="1" />
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

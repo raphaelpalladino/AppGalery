@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGalery.XamarinForms.Layouts.Absoluto.Page1">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="#ccc" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <!--AbsoluteLayout.LayoutBounds="X, Y, W, H"-->
+            <Label Text="Olá, mundo" TextColor="#000" AbsoluteLayout.LayoutBounds="100, 200, 100, 100" AbsoluteLayout.LayoutFlags="None"/>
+            <BoxView BackgroundColor="#00ffff" AbsoluteLayout.LayoutBounds="0.5,0.5,100,100" AbsoluteLayout.LayoutFlags="PositionProportional" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
